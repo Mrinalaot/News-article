@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(39, 56, 82);
+    padding: 10px 100px 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+main {
+    margin: 70px;
+}
+
+main hr {
+    color: rgb(39, 56, 82);
+}
+
+main div hr {
+    display: block;
+    width: 83%;
+    background-color: rgba(214, 201, 201, 0.507);
+    margin-left: 0;
+    height: 1px;
+    border: none
+}
+
+.header-text {
+    color: rgb(39, 56, 82);
+    text-align: center;
+    font-size: 25px;
+}
+
+.tagline {
+    font-size: 10px;
+    color: rgb(39, 56, 82);
+    text-align: center;
+}
+
+.header-box {
+    border: 3px solid rgb(216, 91, 72);
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.flex-container {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.post-article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.image-placeholder {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(208, 208, 208);
+}
+
+.news-info {
+    flex-basis: 70%;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.news-info h3 {
+    color: rgb(39, 56, 82);
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.news-info h6 {
+    margin: 0px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+#read-full-news-btn {
+    border: 0px;
+    background-color: rgb(216, 91, 72);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgb(39, 56, 82);
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 100px 10px;
+    color: white;
+    height: 50px;
+}
+
+@media (max-width: 600px) {}
+
+#categories {
+    width: 170px;
+    border: 2px solid rgb(39, 56, 82);
+    padding: 5px;
+    font-size: 1em;
+}
+
+#email {
+    border: 0px;
+    padding: 5px;
+}
+
+#subscribe {
+    border: 0px solid rgb(39, 56, 82);
+    background-color: rgb(39, 56, 82);
+    color: white;
+    padding: 7px;
+}
+
+.subscribeInput {
+    border: 2px solid rgb(39, 56, 82);
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 220px;
+}
